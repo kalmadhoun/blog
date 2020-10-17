@@ -58,6 +58,9 @@ Route::prefix('admin')->group(function(){
     Route::get('categories',function (){
 
     });
+    Route::get('store',function (){
+
+    });
     Route::prefix('users')->group(function(){
         Route::get('profile',function (){
 
